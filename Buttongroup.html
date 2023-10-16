@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Buttongroup</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<!-- Button class in the bootsrap -->
+		<button class="btn btn-primary">primary</button>
+		<button class="btn btn-secondary">secondary</button>
+		<button class="btn btn-success">success</button>
+		<button class="btn btn-info">info</button>
+		<button class="btn btn-warning">warning</button>
+		<br /><br />
+
+		<!-- input classes the bootsrap -->
+		<a class="btn btn-primary" href="">link to btn</a>
+		<input class="btn btn-success" type="button" value="button" />
+		<br />
+		<br />
+		<br />
+
+		<!-- button-outlined in bootsrap -->
+		<button class="btn btn-outline-primary">Primary-outlined</button>
+		<button class="btn btn-outline-secondary">secondary-outlined</button>
+		<button class="btn btn-outline-info">inf0-outlined</button>
+		<button class="btn btn-outline-danger">success-outlined</button>
+		<button class="btn btn-outline-dark">dark-outlined</button>
+		<br />
+		<br />
+		<br />
+		<!-- Button sizes in thre bootsrap -->
+		<button class="btn btn-lg btn-primary" type="button">
+			large button
+		</button>
+		<button class="btn btn-success btn-sm" type="button">
+			small button
+		</button>
+		<br />
+		<br />
+		<!-- How to make the block level button -->
+		<div class="d-grid">
+			<button class="btn btn-dark">block level button</button>
+		</div>
+        <br>
+        <br>
+		<!-- States in the bootsraps 5 -->
+		<button class="btn btn-primary ">Regular button</button>
+        <button class="btn btn-primary active">Active button</button>
+		<button class="btn btn-primary disabled">Disabled button</button>
+		<button class="">Toggle button</button>
+        <br>
+        <br>
+        <!-- button Groups -->
+        <div>
+            <button class="btn btn-primary">left </button>
+            <button class="btn btn-info">middle</button>
+            <button class="btn btn-danger">right</button>
+            <br>
+            <br>
+        </div>
+  
+          <!-- Drop-down buttons in the bootsrap 5 -->
+          <div class="dropdown">
+            <button data-bs-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button" >Droupdown</button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Link one</a>
+            <a class="dropdown-item" href="#">link two</a>
+            <a class="dropdown-item" href="#">link three</a>
+          </div>
+        </div>
+
+        <!-- Drop-down buttons int he -->
+        <div class="dropdown ">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+          
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+
+</html>
